@@ -1,0 +1,7 @@
+- git init: create an emty Git repo or reinitialize an existing one
+- git add <file_name>:  updates the index using the current content found in the working tree, to prepare the content staged for the next commit. <file_name> is to add file file_name
+- git add .: updates the index using the current content found in the working tree, to prepare the content staged for the next commit. Add all files.
+- git commit -m "message": Create a new commit containing the current contents of the index and the given log message describing the changes. 
+
+-working directory: file2, file3
+-remote repository: file1
